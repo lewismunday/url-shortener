@@ -134,7 +134,7 @@ func AddURL(c *gin.Context) {
 	c.JSON(200, gin.H{
 		"result":   result,
 		"message":  "URL inserted successfully",
-		"shortUrl": "https://w2.fyi/" + shortURL,
+		"shortUrl": shortURL,
 	})
 }
 
